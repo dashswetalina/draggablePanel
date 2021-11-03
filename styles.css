@@ -1,0 +1,80 @@
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #000000;
+    color: white;
+  }
+
+  .content{
+    min-height: 83%;
+    height: auto !important;
+  }
+  .footer {
+    padding: 30px;
+    text-align: center;
+    background: #000000;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+.displayArea{
+  height: 400px;
+  max-height: 400px;
+  background: #a5a5a5;
+}
+  .panel{
+    background: #8a8787;
+    position: absolute;
+    left: 30%;
+      top: 30%;
+      float: center;
+    }
+
+    #draggable { width: 500px; height: 250px; padding: 0.5em; }
+    .radioSpan{
+      float:left;
+    }
+    .timerSpan{
+      float :right;
+    }
+
+    .textSpan{
+      float :center;
+      color:#ffa500;
+    }
+    
+    .dragStyle{
+      color: white;
+      float: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+    .spanStyle{
+      float:left;
+    }
+
+    .panelCenter{
+      background: #8a8787;
+      position: absolute;
+      left: 30%;
+      top: 30%;
+      float: center;
+      }
+
+      .panelBottom{
+        background: #8a8787;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        float: right;
+        }
+  

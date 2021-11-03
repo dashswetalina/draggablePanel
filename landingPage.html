@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Drag and Drop Panel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <script src="jquery-3.6.0.js"></script>
+  <script src="jquery-ui.js"></script>
+    <div class="header">
+        <span class="radioSpan">Position:
+          <input type="radio" id="center" name="position" value="Center" onclick="checkRadio(event);">
+          <label for="center">Center</label>
+          <input type="radio" id="lowerright" name="position" value="Lower Right" onclick="checkRadio(event);">
+          <label for="lowerright">Lower Right</label>
+        </span> 
+        <span class="textSpan">Press ESC key to hide the window.Enter to show it again.</span>
+        <span class="timerSpan" id="timer"></span>
+    </div>
+
+
+
+    <div class="content" id="containment">
+       <div class="displayArea"> 
+        <div class="panel" id="draggable" class="ui-widget-content">
+           <span class="spanStyle" id="floatText">Floating ...</span>
+           <p class="dragStyle">Drag me around...</p>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
